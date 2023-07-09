@@ -1,22 +1,23 @@
+/* MOBILE */
 .header {
     background-color: var(--amarillo);
-    padding: 30px 5px 20px;
-    font-size: 0.7rem;    
+    padding: 30px 5px 15px;
+    font-size: 0.7rem;
 }
-/* LOGO */
+         /* LOGO */
 .header-logo {
 margin-left: 30px;
 width: 125px;
 }
 
-/* BUSCADOR */
+        /* BUSCADOR */
 .header-search {
     margin-left: 17px;
     margin-top: 10px;
     margin-bottom: 0;
 }
 .header-search input{
-    display: block;
+    display: inline;
 }
 .header-search button {
     border: solid 1px rgb(131, 131, 131);
@@ -25,7 +26,7 @@ width: 125px;
     padding: 2px;
 }
 
-/* FRASE */
+        /* FRASE */
 .header-frase {
 text-align: center;
 margin-top: 10px;
@@ -33,21 +34,26 @@ font-weight: 600;
 font-size: 0.7rem;
 }
 
-/* MENU */
+        /* MENU */
 .header__nav-menu {
-    margin: 15px 0px; ;
+    margin: 15px 0px;
+    display: none;
 }
 
-/* LOGIN */
+        /* LOGIN */
+.header__nav-login{
+display: none;
+}
+
 .header__nav-login ul li a i{
     margin-left: 5px;
 }
 
-/* MENU HAMBURGUESA */
+        /* MENU HAMBURGUESA */
 .header-button--bars {
     width: 35px;
     height: 35px;
-    margin: 20px auto 10px;
+    margin: 20px auto 5px;
     background-color: var(--celeste);
     border: none;
     border-radius: 5px;
@@ -58,6 +64,28 @@ font-size: 0.7rem;
 .header-button--bars i {
     font-size: 20px;
 }
+
+
+/* TABLET */
+@media (min-width: 361px) {
+        
+        /* MENU */
+.header__nav-menu {
+     display: block;
+ }
+        
+         /* LOGIN */
+.header__nav-login{
+    display: block;
+}
+        /* MENU HAMBURGUESA */
+.header-button--bars {
+    display: none;
+}
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {}
 
 
 

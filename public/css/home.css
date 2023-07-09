@@ -1,6 +1,120 @@
-.home__section__article-image {
-    width: 100%;
+/* MOBILE */
+
+/* HOME */
+.home {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
-.home-banner{
-    width: 100%;
+
+/* BANNER */
+.home__top-banner {
+  width: 100%;
 }
+
+/* PRUDUCTOS */
+.home__productos {
+}
+.home__productos h2{color: var(--grisOscuro);margin-top: 15px;}
+
+.home__productos__article {
+  margin-top: 10px;
+  background-color: #ffff;
+}
+        /* PRODUCTOS IMAGEN */
+.home__productos__article image {
+  width: 100%;
+}
+            /* PRODUCTOS PROPIEDADES */
+.home__productos__article .productos-propiedades {
+  text-align: left;
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+.home__productos__article .productos-propiedades i {
+  font-size: 15px;
+  color: var(--verde);
+  border: solid 1px var(--verde);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.home__productos__article .productos-propiedades p {
+}
+
+.home__productos__article .productos-propiedades span {
+  color: var(--verde);
+  text-transform: lowercase;
+}
+
+.home__productos__article .productos-propiedades h3 {
+  display: none;
+  margin-top: 20px;
+}
+
+
+
+/* TABLET */
+@media (min-width: 361px) {
+    
+    /* PRUDUCTOS */
+.home__productos {
+}
+
+.home__productos__article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+        /* PRODUCTOS IMAGEN */
+.home__productos__article image {
+}
+            /* PRODUCTOS PROPIEDADES */
+.home__productos__article .productos-propiedades {
+}
+
+.home__productos__article .productos-propiedades i {
+}
+
+.home__productos__article .productos-propiedades p {
+}
+
+.home__productos__article .productos-propiedades span {
+}
+
+.home__productos__article .productos-propiedades h3 {
+    display: block;
+}
+}
+
+
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    
+    /* PRUDUCTOS */
+    .home__productos {
+    }
+    
+    .home__productos__article {
+    }
+            /* PRODUCTOS IMAGEN */
+    .home__productos__article image {
+    }
+                /* PRODUCTOS PROPIEDADES */
+    .home__productos__article .productos-propiedades {
+    }
+    
+    .home__productos__article .productos-propiedades i {
+    }
+    
+    .home__productos__article .productos-propiedades p {
+    }
+    
+    .home__productos__article .productos-propiedades span {
+    }
+    
+    .home__productos__article .productos-propiedades h3 {
+    }
+    }
+    
