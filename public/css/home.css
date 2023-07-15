@@ -15,38 +15,61 @@
 
 /* PRUDUCTOS */
 .home__productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.home__productos h2{color: var(--grisOscuro);margin-top: 15px;}
+
+.home__productos h2 {
+  color: var(--grisOscuro);
+  margin-top: 15px;
+  width: 100%;
+}
 
 .home__productos__article {
   margin-top: 10px;
   background-color: #ffff;
+  text-align: right;
 }
-        /* PRODUCTOS IMAGEN */
+/* PRODUCTOS IMAGEN */
 .home__productos__article image {
   width: 100%;
 }
-            /* PRODUCTOS PROPIEDADES */
+/* PRODUCTOS PROPIEDADES */
 .home__productos__article .productos-propiedades {
+  position: relative;
   text-align: left;
   border-top: solid 1px #ebebeb;
   padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.home__productos__article .productos-propiedades i {
-  font-size: 15px;
+.home__productos__article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--verde);
   color: var(--verde);
-  border: solid 1px var(--verde);
-  padding: 8px;
+  background-color: #ffffff;
   border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
 .home__productos__article .productos-propiedades p {
+  display: block;
+  width: 30%;
 }
 
 .home__productos__article .productos-propiedades span {
   color: var(--verde);
   text-transform: lowercase;
+  width: 70%;
 }
 
 .home__productos__article .productos-propiedades h3 {
@@ -54,67 +77,63 @@
   margin-top: 20px;
 }
 
-
-
 /* TABLET */
-@media (min-width: 361px) {
-    
-    /* PRUDUCTOS */
-.home__productos {
-}
+@media (min-width: 481px) {
 
-.home__productos__article {
+  /* PRUDUCTOS */
+  .home__productos {
+  }
+
+  .home__productos__article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-        /* PRODUCTOS IMAGEN */
-.home__productos__article image {
-}
-            /* PRODUCTOS PROPIEDADES */
-.home__productos__article .productos-propiedades {
-}
+    width: 49%;
+  }
+  /* PRODUCTOS IMAGEN */
+  .home__productos__article image {
+  }
+  /* PRODUCTOS PROPIEDADES */
+  .home__productos__article .productos-propiedades {
+  }
 
-.home__productos__article .productos-propiedades i {
-}
+  .home__productos__article i {
+  }
 
-.home__productos__article .productos-propiedades p {
-}
+  .home__productos__article .productos-propiedades p {
+  }
 
-.home__productos__article .productos-propiedades span {
-}
+  .home__productos__article .productos-propiedades span {
+  }
 
-.home__productos__article .productos-propiedades h3 {
+  .home__productos__article .productos-propiedades h3 {
     display: block;
+  }
 }
-}
-
-
 
 /* DESKTOP */
 @media (min-width: 769px) {
-    
-    /* PRUDUCTOS */
-    .home__productos {
-    }
-    
-    .home__productos__article {
-    }
-            /* PRODUCTOS IMAGEN */
-    .home__productos__article image {
-    }
-                /* PRODUCTOS PROPIEDADES */
-    .home__productos__article .productos-propiedades {
-    }
-    
-    .home__productos__article .productos-propiedades i {
-    }
-    
-    .home__productos__article .productos-propiedades p {
-    }
-    
-    .home__productos__article .productos-propiedades span {
-    }
-    
-    .home__productos__article .productos-propiedades h3 {
-    }
-    }
-    
+  /* PRUDUCTOS */
+  .home__productos {
+  }
+
+  .home__productos__article {
+    width: 24%;
+  }
+  /* PRODUCTOS IMAGEN */
+  .home__productos__article image {
+  }
+  /* PRODUCTOS PROPIEDADES */
+  .home__productos__article .productos-propiedades {
+  }
+
+  .home__productos__article i {
+  }
+
+  .home__productos__article .productos-propiedades p {
+  }
+
+  .home__productos__article .productos-propiedades span {
+  }
+
+  .home__productos__article .productos-propiedades h3 {
+  }
+}
