@@ -1,51 +1,72 @@
 /* MOBILE */
 .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: var(--amarillo);
-    padding: 30px 5px 15px;
+    padding: 15px;
     font-size: 0.7rem;
 }
          /* LOGO */
 .header-logo {
-margin-left: 30px;
-width: 125px;
+    padding: 8px;
+    width: 50%;
+ }
+
+.header img{
+width: 100%;
 }
 
         /* BUSCADOR */
 .header-search {
-    margin-left: 17px;
-    margin-top: 10px;
-    margin-bottom: 0;
+    width: 50%;
 }
+
+.header-search--bar{
+    flex-grow: 1;
+    height: 25px;
+    padding: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--grisClaro);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
 .header-search input{
-    display: inline;
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    width: 100%;
 }
 .header-search button {
-    border: solid 1px rgb(131, 131, 131);
-    margin-top: 2px;
-    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    border-left: solid 1px var(--grisClaro);
+    border-radius: 3px; 
     padding: 2px;
+    color: gray;
+    line-height: 0;
 }
 
         /* FRASE */
 .header-frase {
-text-align: center;
-margin-top: 10px;
-font-weight: 600;
-font-size: 0.7rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 0.75rem;
 }
 
-        /* MENU */
-.header__nav-menu {
+        /* MENU / LOGIN NAVS*/
+.header__navs{
     margin: 15px 0px;
     display: none;
 }
 
-        /* LOGIN */
-.header__nav-login{
-display: none;
-}
-
-.header__nav-login ul li a i{
+.header__navs ul li a i{
     margin-left: 5px;
 }
 
@@ -67,16 +88,34 @@ display: none;
 
 
 /* TABLET */
-@media (min-width: 361px) {
-        
-        /* MENU */
-.header__nav-menu {
-     display: block;
- }
-        
-         /* LOGIN */
-.header__nav-login{
-    display: block;
+@media (min-width: 481px) {
+.header {
+    justify-content: space-between;
+}
+.header-logo {
+    padding: 0;
+     width: 30%;
+ } 
+ .header-search {
+    width: 28%;
+}   
+.header-frase {
+    width: 33%;
+}
+
+        /* MENU / LOGIN NAVS*/    
+.header__navs {
+    margin: 30px 0 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__navs ul{
+    display: flex;
+    justify-content: space-around;
+}
+.header__nav{
+    width: 38%;
 }
         /* MENU HAMBURGUESA */
 .header-button--bars {
@@ -85,7 +124,8 @@ display: none;
 }
 
 /* DESKTOP */
-@media (min-width: 769px) {}
+@media (min-width: 769px) {
+}
 
 
 

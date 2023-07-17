@@ -11,15 +11,17 @@
 <body>
     <header class="header">  <!-- HEADER -->
         <!-- LOGO -->
-        <figure>
-            <img class="header-logo" src="/img/logo-mercado-liebre.svg" alt="">
+        <figure class="header-logo">
+            <img src="/img/logo-mercado-liebre.svg" alt="">
         </figure>
 
         <!-- BUSCADOR -->
-        <form action="/" class="header-search" >
+        <div class="header-search">
+        <div class="header-search--bar" >
             <input type="text" placeholder="Buscar productos, marcas">
             <button><i class="fas fa-search"></i></button>            
-        </form>
+        </div>
+    </div>
 
         <!-- FRASE -->
         <div class="header-frase">
@@ -28,24 +30,25 @@
         </div>
 
         <!-- MENU -->
-        <nav class="header__nav-menu">
-            <ul>
-                <li><a href="">Ofertas</a></li>
-                <li><a href="">Tiendas Oficiales</a></li>
-                <li><a href="">Vender</a></li>
-                <li><a href="">Ayuda</a></li>
-            </ul>
-        </nav>
+        <div class="header__navs">
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+            </nav>
 
-        <!-- LOGIN -->
-        <nav class="header__nav-login">
-            <ul>
-                <li><a href="">Creá tu cuenta<i class="far fa-id-card"></i></a></li>
-                <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
-                <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
-            </ul>
-        </nav>
-
+            <!-- LOGIN -->
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="">Creá tu cuenta<i class="far fa-id-card"></i></a></li>
+                    <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
         <!-- MENU HAMBURGUESA -->
         <div class="header-button--bars">
         <span><i class="fas fa-bars"></i></span>
