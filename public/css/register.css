@@ -1,0 +1,29 @@
+.home__regcontainer{
+    margin: 50px 50px 20px;
+    text-align: center;
+}
+
+.home__regcontainer h3{
+text-align: left;
+margin: 40px 0 15px;
+}
+
+.home__regcontainer-line{display: block;width: 100%;margin: 17px auto;padding: 6px 15px;font-size: 12px;border: none;border-radius: 3px;}
+
+.home__regcontainer-radiocontainer{
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+}
+.home__regcontainer-radiolabel{
+    margin-left: -15px;
+}
+
+.home__regcontainer-checkcontainer{display: flex;flex-wrap: wrap;justify-content: start;row-gap: 25px;}
+
+.home__regcontainer-check{width: 20%;}
+.home__regcontainer-checklabel{
+width: 80%;
+text-align: left;
+}
