@@ -103,7 +103,10 @@
   }
 
   .home__productos__article .productos-propiedades span {
+text-align: center;
   }
+
+  
 
   .home__productos__article .productos-propiedades h3 {
     display: block;
@@ -133,6 +136,7 @@
   }
 
   .home__productos__article .productos-propiedades span {
+    text-align: right
   }
 
   .home__productos__article .productos-propiedades h3 {
