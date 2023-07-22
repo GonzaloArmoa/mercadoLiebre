@@ -2,7 +2,7 @@
 .home__register{
 }
 .home__regcontainer{
-    margin: 50px 50px 20px;
+    margin: 40px 50px 20px;
     text-align: center;
 }
 
@@ -50,11 +50,8 @@ text-align: left;
 
 /* TABLET */
 @media (min-width: 481px) {
-    
 .home__regcontainer{
-
 margin: 50px auto;
-
 width: 80%;
 }
 
@@ -63,34 +60,26 @@ width: 80%;
 }
 
 .home__regcontainer-radiocontainer{
-
 gap: 80px;
 }
 
 
 .home__regcontainer-radiolabel{
-
 margin-left: -60px;
 }
 
 .home__regcontainer-checkcontainer{
-
 width: 400px;
-
 justify-content: flex-start;
-
 column-gap: 45px;
 }
 
 .home__regcontainer-check{
-
 width: 50px;
 }
 
 .home__regcontainer-checklabel{
-
 width: auto;
-
 margin-left: -40px;
 }
 }
@@ -103,23 +92,18 @@ margin-left: -40px;
     }
 
 .home__regcontainer-checkcontainer{
-
-    width: 100%;
+width: 100%; 
+justify-content: flex-start;
+gap: 20px;
+}
     
-    justify-content: flex-start;
+.home__regcontainer-check{
+ width: 50px;
+}
     
-    gap: 20px;
-    }
-    
-    .home__regcontainer-check{
-    
-    width: 50px;
-    }
-    
-    .home__regcontainer-checklabel{
-    
+.home__regcontainer-checklabel{
     width: auto;
-    
     margin-left: -20px;
-    }
-    }
+ }
+ 
+ }
