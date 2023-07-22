@@ -55,6 +55,8 @@
         padding: 10px;
         text-align: center;
     }
+}
+
 /* DESKTOP  */
 @media (min-width: 769px) {
     .home__logcontainer{
