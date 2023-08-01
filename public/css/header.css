@@ -125,7 +125,16 @@ width: 100%;
 
 /* DESKTOP */
 @media (min-width: 769px) {
-}
 
+    /* HEADER */
+        /* LOGO */
+.header-logo{
+    width: 20%;
+}
+    /* NAVS MENU */
+.header__navs li a{
+    font-size: 0.9rem
+}
+}
 
 
