@@ -32,6 +32,11 @@
 
 }
 
+.home__logcontainer button:hover{
+    background-color: #0022aa;
+
+}
+
 /* TABLET */
 @media (min-width: 481px) {
     .home__logcontainer{
