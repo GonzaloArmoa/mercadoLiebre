@@ -146,10 +146,10 @@
    {
       "id": 17,
       "name": "Smart Watch Samsung",
-      "price": 85500,
-      "discount": 20,
+      "price": 95000,
+      "discount": 45,
       "category": "in-sale",
-      "description": "Smart watch para todos los dias.",
+      "description": "Smart watch para usar todos los dias.!",
       "image": null
    }
 ]
