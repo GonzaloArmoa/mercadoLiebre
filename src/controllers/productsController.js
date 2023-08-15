@@ -10,6 +10,9 @@ const controller = {
 	// Root - Show all products
 	index: (req, res) => {
 		// Do the magic
+		const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
+		const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+
 		return res.render('products', {
 			products,
 			toThousand
@@ -87,6 +90,11 @@ const controller = {
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
 		// Do the magic
+		const productsModify = products.filter(product => product.id !== +req.params.id )
+
+		fs.writeFileSync(productsFilePath, JSON.stringify(productsModify,null,3),)
+
+		return res.redirect('/products')
 	}
 };
 
