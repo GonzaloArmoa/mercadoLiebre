@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Mercado Liebre | Home'}) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+
+
+	<!-- Login -->
+    
+    <main class="home__login">
+        <form class="home__logcontainer" action="/login" method="post">
+            <h3>Ingresa</h3>
+            <input class="home__logcontainer-line" placeholder="Nombre de usuario" type="text" name="usuario" id="">
+            <input class="home__logcontainer-line" placeholder="Contraseña" type="text" name="password" id="">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
