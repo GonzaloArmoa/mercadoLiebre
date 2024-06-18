@@ -2,7 +2,7 @@
   "name": "projectomercadoliebre",
   "version": "1.0.0",
   "description": "Proyecto Mercado Liebre | Formar - DH",
-  "main": "app.js",
+  "main": "src/app.js",
   "private": true,
   "scripts": {
     "start": "node ./src/bin/www",
